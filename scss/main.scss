@@ -11,7 +11,7 @@
     max-height: 100vh;
     background-size: cover;
     justify-content: center;
-    padding-top: 20px;
+    padding: 40px 0;
     animation-name: backgroundAnimation;
     animation-duration: 60s;
     animation-timing-function:linear;
@@ -20,11 +20,11 @@
 
     .mp3-header{
         margin: auto;
-        height: 180px;
-        width: 300px;
+        height: 300px;
+        width: 500px;
         background-color: hsla(0, 0%, 85%, 0.7);
         border-radius: 5px;
-        padding: 15px;
+        padding: 25px;
 
         .control-header {
             display: flex;
@@ -32,7 +32,7 @@
 
             .song-intro {
                 display: flex;
-                width: 60px;
+                width: 100px;
 
                 .header-thumb {
                     width: 100%;
@@ -46,11 +46,11 @@
                     flex-shrink: 0 ;
                 }
                 .name {
-                    font-size: 10px;
+                    font-size: 20px;
                     font-weight: 700;
                     flex-shrink: 0 ;
 
-                    margin-left: 10px;
+                    margin-left: 15px;
                     margin-top: 5px;
                 }
             }
@@ -62,7 +62,7 @@
 
                 .options-icon {
                     opacity: 0.5;
-                    width: 15px;
+                    width: 25px;
                     cursor: pointer;
 
                     &:hover {
@@ -80,10 +80,10 @@
         }
 
         .control-duration {
-            margin-top: 20px;
+            margin-top: 30px;
             
             .control-audio-bar {
-                font-size: 11px;
+                font-size: 18px;
 
                 .current-time {
                     opacity: 0.8;
@@ -91,17 +91,17 @@
                 }
                 .audio-duration {
                     opacity: 0.8;
-                    margin-left: 205px;
+                    margin-left: 350px;
                 }
             }
 
             .even-btn {
                 display: flex;
                 justify-content: space-around;
-                margin: 6px 0 10px 0;
+                margin: 6px 0 30px 0;
 
                 .even-icon {
-                    font-size: 15px;
+                    font-size: 25px;
                     cursor: pointer;
                 }
             }
@@ -117,7 +117,7 @@
                 margin-left: 16px;
             }
             .control-volum-icon {
-                font-size: 12px;
+                font-size: 15px;
             }
         }
     }
@@ -125,15 +125,15 @@
     .mp3-list {
         margin: auto;
         margin-top:10px;
-        height: 250px;
-        width: 300px;
+        height: 400px;
+        width: 500px;
         background-color: hsla(0, 0%, 85%, 0.7);
         border-radius: 5px;
         padding: 15px;
 
         .title {
             font-family: 'Edu NSW ACT Foundation', cursive;
-            font-size: 12px;
+            font-size: 18px;
         }
         .song-list {
             margin: 5px 0;
@@ -165,19 +165,19 @@
                 
                 .song-thumb {
                     border-radius: 50%;
-                    width: 30px;
-                    padding-top: 30px;
+                    width: 60px;
+                    padding-top: 60px;
                     background-size: cover;
                     background-position: center;
                 }
                 .in4 {
-                    margin-left: 10px;
+                    margin-left: 18px;
     
                     .song-name {
-                        font-size: 11px;
+                        font-size: 18px;
                     }
                     .song-singer {
-                        font-size: 9.5px;
+                        font-size: 14px;
                         font-family: 'Bona Nova', serif;
                     }
                 }
